@@ -7,16 +7,16 @@ run ```yarn link``` in this project
 
 use ```yarn link niyon-test``` in another react project, then use as use as usual i.e. ```import <component> from 'niyon-test```
 
-##To use from npm
+## To use from npm
 create a react app
 
 ```yarn add niyon-test```
 
 ```import <component> from 'niyon-test'```
 
-#Components
+# Components
 
-##Card
+## Card
 
 ```jsx
 import { Card } from 'niyon-test';
@@ -26,7 +26,7 @@ import { Card } from 'niyon-test';
 </Card>
 ```
 
-##Button
+## Button
 
 ```jsx
 import { Button } from 'niyon-test';
