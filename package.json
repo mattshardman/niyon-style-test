@@ -1,0 +1,30 @@
+{
+  "name": "niyon-test",
+  "version": "1.0.6",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "prepublishOnly": "babel ./src --out-dir ./dist -s inline",
+    "make": "yarn prepublishOnly",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Matt Hardman",
+  "license": "ISC",
+  "peerDependencies": {
+    "styled-components": "^4.3.2",
+    "react": "^16.8.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0"
+  },
+  "files": [
+    "dist/*"
+  ],
+  "dependencies": {
+    "styled-components": "^4.3.2"
+  }
+}
